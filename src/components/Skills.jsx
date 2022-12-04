@@ -1,5 +1,4 @@
 import React from "react";
-import {FaCircle} from 'react-icons/fa'
 export default function Skill() {
     return (
         <div className="  m-2 flex-col  justify-center md:justify-start text-left">

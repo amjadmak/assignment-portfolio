@@ -7,9 +7,11 @@ import {BsEnvelope} from "react-icons/bs"
 
 export default function Contact() {
 
+    
+
     return(
         <>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
             <div className="bg-[#30afff] h-20 flex justify-center items-center rounded-t-xl">Amjad Maqsouma</div>
             <span className="p-2 hover:bg-[#696969] rounded-xl text-sm"><a href="mailto:amjad.maksuma@gmail.com" className="flex  gap-10 items-center"><BsEnvelope/>amjad.maksuma@gmail</a></span>
             <span className="p-2 hover:bg-[#696969] rounded-xl text-sm" ><a href="tel:+905398696815" className="flex  gap-10 items-center"><BsTelephoneInbound/>+90 5398696815</a></span>

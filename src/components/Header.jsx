@@ -7,9 +7,9 @@ export function classNames(...classes) {
 }
 export default function Header() {
     const navigation = [
-        { name: `About Me`, href: "/", current: false },
-        { name: `Portfolio`, href: "/aboutus", current: false },
-        { name: `Technologies`, href: "/goods", current: false },
+        { name: `Projects`, href: "#project", current: false },
+        { name: `Education`, href: "#education", current: false },
+        { name: `Skills`, href: "#skills", current: false },
     ];
     const [animateHeader, setAnimateHeader] = useState(false);
 
@@ -85,7 +85,7 @@ export default function Header() {
                                     </div>
                                 </div>
                                 <a href='/'>
-                                   AMJAD
+                                   <img className="rounded-full" src="https://amjadmak.github.io/Potfolio-site/assets/img/profileFace.jpg" alt="null" width={50} height={50}/>
                                 </a>
                                 <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-end'>
                                     <div className='flex flex-shrink-0 items-center'>
